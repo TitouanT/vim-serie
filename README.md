@@ -1,4 +1,4 @@
-# vim-serieInfo
+# vim-serie
 a plugin to keep track of the shows you watch.
 
 
