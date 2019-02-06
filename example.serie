@@ -1,0 +1,37 @@
+# I typed "malcolm" on the line below and then "su" in normal mode
+malcolm
+4 results for: "malcolm"
+Libby & Malcolm         ; 55858;1;1;;;;
+Malcolm & Eddie         ; 4298;1;1;;;;
+Malcolm in the Middle   ; 4299;1;1;;;;
+Mrs. Merton and Malcolm ; 8236;1;1;;;;
+
+
+
+# before "su"
+Malcolm in the Middle   ; 4299;1;1;;;;
+
+# after "su"
+Malcolm in the Middle   ; 4299; 1; 1; Available; Pilot; ; 
+
+# after "sn"
+Malcolm in the Middle   ; 4299; 1; 2; Available; Red Dress; ; 
+
+# then you can add a link format
+Malcolm in the Middle   ; 4299; 1; 2; Available; Red Dress; ; weird {e} looking {s} link ^^
+
+# and now let's try going backward with "sp"
+Malcolm in the Middle   ; 4299; 1; 1; Available; Pilot    ; weird 1 looking 1 link ^^; weird {e} looking {s} link ^^
+
+# forward again to times "snsn"
+Malcolm in the Middle   ; 4299; 1; 3; Available; Home Alone 4; weird 3 looking 1 link ^^; weird {e} looking {s} link ^^
+
+# lets go to the last episode, I increment the season like crazy
+Malcolm in the Middle   ; 4299; 100; 3; Available; Home Alone 4; weird 3 looking 100 link ^^; weird {e} looking {s} link ^^
+
+# and then do "sp" or "sn"
+Malcolm in the Middle   ; 4299; 7  ; 22; Available; Graduation  ; weird 22 looking 7 link ^^ ; weird {e} looking {s} link ^^
+
+# and is there a next one ? sn !!
+Malcolm in the Middle   ; 4299; 7  ; 22; Ended    ;             ; weird 22 looking 7 link ^^ ; weird {e} looking {s} link ^^
+# sadly no...
