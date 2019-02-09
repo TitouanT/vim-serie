@@ -9,6 +9,8 @@ exe "vnoremap <silent> su !".s:jscmd." --update<CR>"
 vnoremap <silent> sa  !column -t -o ';' -s ';'<CR>
 nnoremap <silent> sa  gg!} column -t -o ';' -s ';'<CR>
 
+nnoremap gx 0/http<cr>gx
+
 setlocal nowrap
 setlocal cursorline
 setlocal commentstring=#\ %s
