@@ -7,9 +7,9 @@ exe "nnoremap <silent> sU gg!}".s:jscmd." --update<CR>"
 
 exe "vnoremap <silent> su !".s:jscmd." --update<CR>"
 vnoremap <silent> sa  !column -t -o ';' -s ';'<CR>
-nnoremap <silent> sa  gg!} column -t -o ';' -s ';'<CR>
+nnoremap <silent> sa  {!} column -t -o ';' -s ';'<CR>
 
-nnoremap so 0/http<cr>gx
+nmap <silent> so 0/http<cr>gx0:noh<cr>
 
 setlocal nowrap
 setlocal cursorline

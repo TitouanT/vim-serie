@@ -49,6 +49,7 @@ Also, by default in vim, you can press `gx` on a link to open it in your browser
 	+ `sn` : goes to Next episode
 	+ `sp` : goes to Previous episode
 	+ `sa` : Align all the columns of the first paragraph
+	+ `so` : open the url in the browser
 
 
 ### visual mode mappings
